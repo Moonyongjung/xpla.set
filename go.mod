@@ -1,6 +1,6 @@
-module github.com/Moonyongjung/xpla-set
+module github.com/Moonyongjung/xpla.set
 
-go 1.19
+go 1.20
 
 require (
 	github.com/Moonyongjung/xpla.go v0.0.11

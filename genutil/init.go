@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/Moonyongjung/xpla-set/types"
-	"github.com/Moonyongjung/xpla-set/util"
 	xtypes "github.com/Moonyongjung/xpla.go/types"
+	"github.com/Moonyongjung/xpla.set/types"
+	"github.com/Moonyongjung/xpla.set/util"
 
 	"github.com/cosmos/cosmos-sdk/server/config"
 	sdk "github.com/cosmos/cosmos-sdk/types"

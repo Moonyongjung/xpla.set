@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Moonyongjung/xpla-set/types"
+	"github.com/Moonyongjung/xpla.set/types"
 	"github.com/logrusorgru/aurora"
 )
 
 func LogInfo(log ...interface{}) {
-	print := logTime() + G(" XPLA-SET   ") + ToStringTrim(log, "")
+	print := logTime() + G(" xpla.set   ") + ToStringTrim(log, "")
 	fmt.Println(print)
 }
 

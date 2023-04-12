@@ -1,1 +1,1 @@
-go run xpla-set.go
+go run xpla.set.go

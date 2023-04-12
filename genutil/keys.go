@@ -4,8 +4,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/Moonyongjung/xpla-set/types"
-	"github.com/Moonyongjung/xpla-set/util"
+	"github.com/Moonyongjung/xpla.set/types"
+	"github.com/Moonyongjung/xpla.set/util"
 	"github.com/ethereum/go-ethereum/common"
 
 	xtypes "github.com/Moonyongjung/xpla.go/types"

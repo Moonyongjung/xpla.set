@@ -6,8 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/Moonyongjung/xpla-set/types"
-	"github.com/Moonyongjung/xpla-set/util"
+	"github.com/Moonyongjung/xpla.set/types"
+	"github.com/Moonyongjung/xpla.set/util"
 
 	"github.com/Moonyongjung/xpla.go/client"
 	"github.com/Moonyongjung/xpla.go/key"

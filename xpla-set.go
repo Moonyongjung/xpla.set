@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Moonyongjung/xpla-set/genutil"
-	"github.com/Moonyongjung/xpla-set/util"
+	"github.com/Moonyongjung/xpla.set/genutil"
+	"github.com/Moonyongjung/xpla.set/util"
 )
 
 const configFilePath = "./config.yaml"

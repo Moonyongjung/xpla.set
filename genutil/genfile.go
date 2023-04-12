@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Moonyongjung/xpla-set/types"
-	"github.com/Moonyongjung/xpla-set/util"
+	"github.com/Moonyongjung/xpla.set/types"
+	"github.com/Moonyongjung/xpla.set/util"
 
 	"github.com/Moonyongjung/xpla.go/client"
 	xtypes "github.com/Moonyongjung/xpla.go/types"

@@ -3,10 +3,10 @@ package genutil
 import (
 	"path"
 
-	"github.com/Moonyongjung/xpla-set/types"
-	"github.com/Moonyongjung/xpla-set/util"
 	"github.com/Moonyongjung/xpla.go/client"
 	xutil "github.com/Moonyongjung/xpla.go/util"
+	"github.com/Moonyongjung/xpla.set/types"
+	"github.com/Moonyongjung/xpla.set/util"
 )
 
 // Setting validator node.
