@@ -1,0 +1,102 @@
+# Auto set xplad node
+# Mandatory(M), Optional(O)
+xpla_gen:
+  # chain ID
+  chain_id: cube_47-5 #M
+
+  # select home absolute directory, default is $HOME/.xplaset
+  home: #O
+
+  # create validator nodes
+  # if you want to create multiple validators, list up mandatory info of a validator
+  validators:
+    - validator:
+      # the moniker of the validator node, default validator0,1,2...
+      moniker: validator_node_0 #O
+
+      # server IP address
+      ip_address: 172.26.0.10 #O
+
+      # self-delegate amount
+      # del_amount must be less than validator balance
+      del_amount: 500000000000000000000000 #M
+
+      # minimum self delegation, default is 1
+      min_self_delegation: 1 #O
+
+      # commission option
+      # each default value is rate = 0.1, max_rate = 0.2, max_change_rate = 0.01
+      commission_option: #O
+        rate:
+        max_rate:
+        max_change_rate:
+
+      # validator's option
+      validator_option: #O
+        website: "https://xpla.io"
+        identity: "IDENTITY"
+        security_contact: "contact target"
+        details: "details of the validator"
+      
+      # set in keys as many as the number of keys to be created.
+      local_keys: 
+        # name is local key name
+        # keyring_backend is the type of keyring's backend (file|test)
+        # keyring_passphrase is the password of the keyring
+        # recover is recovering existing key instead of creating, default is false
+        # even if multiple keys are created, the first key is set as the validator key such as 'myKey1'
+        - name: myKey1 #M
+          keyring_backend: test #M
+          balance: 1000000000000000000000000 #M
+        - name: myKey2 #O
+          keyring_backend: test #O
+          balance: 12345 #O
+        - name: myKey3 #O
+          keyring_backend: test #O
+
+      keys_option: #O
+        # do not save the key_seed file, default is false
+        not_save_mnemonic:  
+        # print mnemonic when generate key, default is false
+        print_mnemonic:
+
+      # the number of sentry nodes of the validator
+      # if this field that is "sentries" is not exist, only create a validator
+      sentries: #O
+        ip_address: 
+          - 172.26.0.30
+          - 172.26.0.31
+
+    - validator:
+      moniker: validator_node_1 #M
+      ip_address: 172.26.0.20 #O
+      del_amount: 500000000000000000000000 #M
+      min_self_delegation: 1 #O
+      
+      commission_option: #O
+        rate:
+        max_rate:
+        max_change_rate:
+
+      validator_option: #O
+        website: "https://xpla1.io"
+        identity: "IDENTITY1"
+        security_contact: "contact target1"
+        details: "details of the validator1"
+
+      local_keys: 
+        - name: myKey1 #M
+          keyring_backend: test #M
+          balance: 1000000000000000000000000 #M
+        - name: myKey2
+          keyring_backend: test
+
+      keys_option: #O
+        not_save_mnemonic:  
+        print_mnemonic:
+
+      sentries: #O
+        ip_address: 
+          - 172.26.0.40
+          - 172.26.0.41
+          - 172.26.0.42
