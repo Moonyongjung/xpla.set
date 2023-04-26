@@ -42,8 +42,6 @@ xpla_gen:
       local_keys: 
         # name is local key name
         # keyring_backend is the type of keyring's backend (file|test)
-        # keyring_passphrase is the password of the keyring
-        # recover is recovering existing key instead of creating, default is false
         # even if multiple keys are created, the first key is set as the validator key such as 'myKey1'
         - name: myKey1 #M
           keyring_backend: test #M
