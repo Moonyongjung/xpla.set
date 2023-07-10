@@ -11,7 +11,7 @@ require (
 	github.com/evmos/ethermint v0.19.3
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/tendermint/tendermint v0.34.21
-	github.com/xpladev/xpla v1.2.0
+	github.com/xpladev/xpla v1.2.2
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -22,7 +22,7 @@ require (
 	github.com/99designs/keyring v1.2.1 // indirect
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d // indirect
 	github.com/CosmWasm/wasmd v0.28.0 // indirect
-	github.com/CosmWasm/wasmvm v1.0.0 // indirect
+	github.com/CosmWasm/wasmvm v1.0.1 // indirect
 	github.com/DataDog/zstd v1.4.5 // indirect
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/VictoriaMetrics/fastcache v1.6.0 // indirect
